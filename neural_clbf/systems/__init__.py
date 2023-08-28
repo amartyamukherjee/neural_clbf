@@ -15,6 +15,12 @@ from .turtlebot_2d import TurtleBot2D
 from .linear_satellite import LinearSatellite
 from .single_integrator_2d import SingleIntegrator2D
 from .autorally import AutoRally
+from .roomba_1 import RoombaProblem1
+from .roomba_2 import RoombaProblem2
+from .diff_drive_1 import DiffDriveProblem1
+from .diff_drive_2 import DiffDriveProblem2
+from .car_like_robot_1 import CarLikeRobot1
+from .car_like_robot_2 import CarLikeRobot2
 
 __all__ = [
     "ControlAffineSystem",
@@ -32,6 +38,12 @@ __all__ = [
     "LinearSatellite",
     "SingleIntegrator2D",
     "AutoRally",
+    "RoombaProblem1",
+    "RoombaProblem2",
+    "DiffDriveProblem1",
+    "DiffDriveProblem2",
+    "CarLikeRobot1",
+    "CarLikeRobot2",
 ]
 
 try:
